@@ -56,14 +56,15 @@ body {
 
 ul{
 	list-style: none;
-		font-family: 'splendid';
-
 }
 
-li:hover {
+li a:hover {
 	transform: scale(1.05);
 }
 
+a {
+	font-family: 'splendid';
+}
 
 img {
 	max-width: 250px;
@@ -72,4 +73,47 @@ img {
 
 header {
 	font-family: 'boldSplend';
+}
+
+#homeBtn {
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	padding: 10px 20px;
+	background-color: #f5c9e9;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#homeBtn:hover {
+	color: #f5c9e9;
+	background: white;
+	transform: scale(1.05);
+}
+
+#showBtn:hover {
+	color: #f5c9e9;
+	background: white;
+	transform: scale(1.05);
+}
+
+#showBtn {
+	position: fixed;
+	top: 80px;
+	right: 20px;
+	padding: 10px 20px;
+	background-color: #f5c9e9;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.showlinks a {
+	display: inline-block;
+	margin: 10px 0;
+	font-size: 1.2em;
+	color: #d980c1;
 }
