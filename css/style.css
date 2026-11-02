@@ -51,7 +51,7 @@ nav li {
 
 body {
 	text-align: center;
-	font-family: 'splendid';
+	font-family: 'boldSplend';
 }
 
 ul{
@@ -63,11 +63,11 @@ li a:hover {
 }
 
 a {
-	font-family: 'splendid';
+	font-family: 'boldSplend';
 }
 
 img {
-	max-width: 250px;
+	max-width: 300px;
 	height: auto;
 }
 
@@ -75,41 +75,19 @@ header {
 	font-family: 'boldSplend';
 }
 
-#homeBtn {
-	position: fixed;
-	top: 20px;
-	right: 20px;
-	padding: 10px 20px;
-	background-color: #f5c9e9;
-	color: #fff;
-	border: none;
-	border-radius: 5px;
-	cursor: pointer;
-}
 
-#homeBtn:hover {
+nav li:hover {
 	color: #f5c9e9;
 	background: white;
 	transform: scale(1.05);
 }
 
-#showBtn:hover {
+nav a:hover {
 	color: #f5c9e9;
 	background: white;
 	transform: scale(1.05);
 }
 
-#showBtn {
-	position: fixed;
-	top: 80px;
-	right: 20px;
-	padding: 10px 20px;
-	background-color: #f5c9e9;
-	color: #fff;
-	border: none;
-	border-radius: 5px;
-	cursor: pointer;
-}
 
 .showlinks a {
 	display: inline-block;
