@@ -9,7 +9,13 @@ html {
 		/* Standard text-settings below */
 	font-size: 1em;
     line-height: 1.4em;
+		/* background: url(../img/backgroundhmmm.png) no-repeat;
+	background-size: 90%;
+	background-color: rgba(255, 255, 255, 0.7);
+	background-attachment: scroll;
+	background-position: top; */
 }
+
 
 @font-face {
 	font-family: 'boldSplend';
@@ -95,3 +101,25 @@ nav a:hover {
 	font-size: 1.2em;
 	color: #d980c1;
 }
+
+#playlist{
+	display: inline-block;
+	margin: 10px 0;
+	font-size: 1.2em;
+	color: #d980c1;
+}
+
+#playlist:hover {
+	color: #f5c9e9;
+	background: white;
+	transform: scale(1.05);
+}
+
+.showlinks p {
+	background: rgba(255, 255, 255, 0.8);
+	padding: 10px;
+	border-radius: 15px;
+	text-align: center;
+	display: inline-block;
+}
+
